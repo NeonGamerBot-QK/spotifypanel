@@ -117,7 +117,6 @@ router.post("/volume", Authenticated, (req, res) => {
 });
 
 router.get("/volume", (req, res) => {
-  // const v÷olume = req.body.volume
   const lines = c
     .spawnSync("./bin/spotify.sh", ["vol"])
     .stdout.toString()
