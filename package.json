@@ -11,5 +11,8 @@
   "main": "src/index.js",
   "author": "Saahil <neon@saahild.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "devDependencies": {
+    "electron": "^26.0.0"
+  }
 }
